@@ -35,7 +35,7 @@ a {
 a:hover{
 	color: white;
 }
-a:vistied{
+a:visited{
 	color: #7F5264;
 }
 em{
@@ -78,7 +78,7 @@ h4{
 	margin-bottom: 2%;
 }
 .box{
-   background: rgba(255,255,255,.9);*/
+   background: rgba(255,255,255,.9);
    margin-top: 2%;
    margin-bottom: 2%;
    padding: 2% 2% 2% 4%;
