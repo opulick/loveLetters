@@ -29,15 +29,13 @@ ul li{
 	display: inline-block;
 }
 a {
-	color: #402932;
+	color: #D88BAF;
 	text-decoration: none;
 }
 a:hover{
-	color: white;
+	color: #EA2459;
 }
-a:visited{
-	color: #7F5264;
-}
+
 em{
 	font-size: 16pt;
 }
@@ -78,7 +76,7 @@ h4{
 	margin-bottom: 2%;
 }
 .box{
-   background: rgba(255,255,255,.9);
+   background: rgba(255,255,255,.85);
    margin-top: 2%;
    margin-bottom: 2%;
    padding: 2% 2% 2% 4%;
@@ -114,4 +112,26 @@ h4{
 }
 .content2{
 	font-family: 'Lora', serif;
+}
+.tooltip{
+	position: relative;
+	display: inline-block;
+}
+.tooltip .tooltiptext {
+   visibility: hidden;
+   width: 30px;
+   background-color: #FE5779;
+   color: white;
+   text-align: center;
+   border-radius: 5px;
+   padding: 5px 0;
+
+   position: absolute;
+   z-index: 1;
+   top: -5px;
+   left: 105%;
+
+}
+.tooltip:hover .tooltiptext{
+	visibility: visible;
 }
